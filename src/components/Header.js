@@ -7,13 +7,13 @@ class Header extends Component {
 
     return (
 
-      <div className="flex pa1 justify-between nowrap">
+      <div className="flex pa1 justify-between nowrap bg-purple">
 
-        <div className="flex flex-fixed black">
+        <div className="flex flex-fixed white">
 
           <div className="fw7 mr1">React Date Picker Spike</div>
 
-          <Link to="/airbnb" className="ml1 no-underline black">
+          <Link to="/airbnb" className="ml1 no-underline white">
             Airbnb
           </Link>
 
@@ -21,7 +21,7 @@ class Header extends Component {
             |
           </div>
 
-          <Link to="/react-dates" className="ml1 no-underline black">
+          <Link to="/react-dates" className="ml1 no-underline white">
             React Date Picker
           </Link>
 
@@ -29,7 +29,7 @@ class Header extends Component {
             |
           </div>
 
-          <Link to="/react-day-picker" className="ml1 no-underline black">
+          <Link to="/react-day-picker" className="ml1 no-underline white">
             React Day Picker
           </Link>
         </div>
