@@ -23,3 +23,5 @@ Nice demo examples
 No Support for Children
 
 ### Suggestion:
+Build our own component
+The effort for customizing an existing component seems equal or more than to creating a new component. Since we already have the calendar service as well as the designs in place I think it would be simpler to convert our AngularJs Component to a React Component.
