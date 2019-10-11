@@ -11,6 +11,15 @@ Children (toggle)
 #### Airbnb React Dates:
 A little hard to use
 They have a lot of documentation, but not the easiest to get up and running.
+Does not support children
+Has an info panel that we would have to customize
+
+### React Date Picker:
+Doesn't use moment.js date objects?
+Supports children (barely)
+
+### React Day Picker
+Nice demo examples
+No Support for Children
 
 ### Suggestion:
-TBD

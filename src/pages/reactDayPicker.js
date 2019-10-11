@@ -89,7 +89,9 @@ export default class Example extends React.Component {
             onDayMouseEnter={this.handleDayEnter}
             onDayMouseLeave={this.handleDayLeave}
             onWeekClick={this.handleWeekClick}
-          />
+          >
+            "children"
+          </DayPicker>
           {selectedDays.length === 7 && (
             <div>
               {moment(selectedDays[0]).format('LL')} –{' '}
