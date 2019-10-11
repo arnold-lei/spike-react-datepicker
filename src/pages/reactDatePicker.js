@@ -17,8 +17,12 @@ const ReactDatePicker = () => {
     setEndDate(new Date(selectedDate.endOf('week').format('L')))
 
   }
+
   return (
-    <>
+    <Fragment>
+      <h1>
+        React Date Picker
+      </h1>
       <DatePicker
         selected={startDate}
         onChange={date => setDate(date)}
@@ -26,8 +30,10 @@ const ReactDatePicker = () => {
         shouldCloseOnSelect={false}
         startDate={startDate}
         endDate={endDate}
-      />
-    </>
+      >
+        "Children"
+      </DatePicker>
+    </Fragment>
   );
 
 }

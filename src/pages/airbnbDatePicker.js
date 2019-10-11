@@ -16,6 +16,9 @@ class AirBnbDatePicker extends Component {
 
     return(
       <Fragment>
+        <h1>
+          AirBnb React Dates
+        </h1>
 
         <AirBnbDayRangeControllerWrapper
 
